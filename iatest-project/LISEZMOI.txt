@@ -1,0 +1,15 @@
+COMPILER SUR GITHUB (sans rien installer)
+1. github.com -> New repository (prive) -> cree-le.
+2. "uploading an existing file" -> glisse TOUT le contenu de ce dossier
+   (IMPORTANT : le dossier cache .github doit etre inclus, sinon voir plus bas).
+3. Commit changes.
+4. Onglet Actions -> workflow "build" -> attend le check vert.
+5. Ouvre le run -> section Artifacts -> telecharge "Artifacts" -> le .jar est dedans
+   (prends celui SANS "-sources").
+6. Mets le jar + Fabric API dans /mods des 2 comptes.
+
+Si .github n'a pas ete envoye : Actions -> "set up a workflow yourself" -> colle le contenu de .github/workflows/build.yml.
+Si le build est rouge : ouvre le run, copie les lignes d'erreur et envoie-les moi.
+
+COMMANDES EN JEU
+/ia xray | reach | bridge | aura | totem | mace | crystal  (toggle)   /ia off = tout couper

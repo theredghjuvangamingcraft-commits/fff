@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "iatest",
+  "version": "${version}",
+  "name": "IA Test Client",
+  "description": "Client de test pour video educative (serveur local/prive).",
+  "authors": ["IA Test"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": { "client": ["fr.iatest.IaTestClient"] },
+  "mixins": [{ "config": "iatest.client.mixins.json", "environment": "client" }],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
